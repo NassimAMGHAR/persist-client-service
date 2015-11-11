@@ -1,2 +1,5 @@
 # persist-client-service
-the service responsible for client persisting
+
+## What is it?
+
+This service responsible for Lead persisting and provides basic CRUD operations against the Lead entity in the system.
