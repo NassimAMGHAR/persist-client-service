@@ -2,4 +2,4 @@
 
 ## What is it?
 
-This service responsible for Lead persisting and provides basic CRUD operations against the Lead entity in the system.
+This service responsible for Client persisting and provides basic CRUD operations against the Client entity in the system.
