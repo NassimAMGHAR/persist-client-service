@@ -21,6 +21,7 @@
     "express": "^4.13.3",
     "mongoose": "^4.2.2",
     "mongoose-unique-validator": "^0.6.0",
-    "async": "^1.5.0"
+    "async": "^1.5.0",
+    "json-required-fields": "^1.0.1"
   }
 }
