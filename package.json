@@ -1,0 +1,26 @@
+{
+  "name": "persist-client-service",
+  "version": "1.0.0",
+  "description": "the service responsible for client persisting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MinimalNoise/persist-client-service.git"
+  },
+  "author": "Mayas Haddad",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MinimalNoise/persist-client-service/issues"
+  },
+  "homepage": "https://github.com/MinimalNoise/persist-client-service",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.2",
+    "mongoose-unique-validator": "^0.6.0",
+    "async": "^1.5.0"
+  }
+}
