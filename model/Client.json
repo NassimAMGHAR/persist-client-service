@@ -1,0 +1,21 @@
+{
+	"title": { "type": "String", "required": true },
+	"firstname": { "type": "String", "required": true },
+	"lastname": { "type": "String", "required": true },
+	"email": { "type": "String", "required": true, "index": { "unique": true } },
+	"birthday": { "type": "String", "required": true },
+	"company": { "type": "String", "required": true },
+	"budget": { "type": "Number", "required": true },
+	"celPhone": { "type": "String", "index": { "unique": true } },
+	"officePhone": "String",
+	"address": {
+		"street": "String",
+        "zipCode": "Number",
+        "city": "String",
+        "country": "String"
+	},
+	"purchases": [{ "amount": "Number", "productID": "String", "transactionDate": "Date"}],
+	"complementaryNote": "String",
+	"creationDate": "Date",
+	"updateDate": "Date"
+}
