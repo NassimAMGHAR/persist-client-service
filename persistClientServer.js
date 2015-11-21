@@ -5,7 +5,7 @@ var app = express()
 // parse text/json
 app.use(bodyParser.json())
 
-app.post('/add-new-lead', function(req, res) {
+app.post('/add-new-client', function(req, res) {
 	ClientDAO.addClient(req.body, function(pResult) {
 		res.json(pResult)
 	})
