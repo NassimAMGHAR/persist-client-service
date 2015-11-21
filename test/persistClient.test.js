@@ -85,7 +85,6 @@ describe('ClientDAO', function() {
         "purchases": [ { "amount": 5000, "productID": "AMEX001", "transactionDate": "01/03/2016" } ],
         "complementaryNote": "Nothing much"
       }, function(pResult) {
-        console.info(pResult)
               assert.equal(
                 (
                   pResult.success === true
