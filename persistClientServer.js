@@ -11,8 +11,10 @@ app.post('/add-new-client', function(req, res) {
 	})
 })
 
-app.post('/update-lead', function(req, res) {
-	
+app.post('/update-client', function(req, res) {
+	ClientDAO.updateClient(req.body, function(pResult) {
+		res.json(pResult)
+	})
 })
 
 app.listen(3000)
