@@ -17,4 +17,9 @@ app.post('/update-client', function(req, res) {
 	})
 })
 
+app.get('/get-clients', function(req, res) {
+	ClientDAO.getClients(req.query, function(pResult) {
+		res.json(pResult)
+	})
+})
 app.listen(3000)
