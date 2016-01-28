@@ -22,7 +22,6 @@
     "express": "^4.13.3",
     "json-required-fields": "^1.0.1",
     "mongoose": "^4.2.2",
-    "mongoose-unique-validator": "^0.6.0",
-    "promise": "^7.1.1"
+    "mongoose-unique-validator": "^0.6.0"
   }
 }
