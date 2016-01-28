@@ -14,7 +14,6 @@
         "city": "String",
         "country": "String"
 	},
-	"purchases": [{ "amount": "Number", "productID": "String", "transactionDate": "Date"}],
 	"complementaryNote": "String",
 	"creationDate": "Date",
 	"updateDate": "Date"
