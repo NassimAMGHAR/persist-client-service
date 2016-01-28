@@ -1,6 +1,8 @@
 {
 	"databaseURL": "localhost",
 	"databaseName": "clients",
+	"purchasesDatabaseName": "purchases",
+    "sequencesDatabaseName": "sequences",
 	"databaseUsername": "",
 	"databasePassword": "",
 	"statusCodes": {
