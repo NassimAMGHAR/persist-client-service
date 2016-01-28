@@ -1,0 +1,4 @@
+{
+    "name": { "type": "String", "unique": true },
+    "sequenceValue": { "type": "Number", "default": 0 }
+}
