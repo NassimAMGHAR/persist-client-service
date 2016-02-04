@@ -78,6 +78,13 @@ describe('ClientDAO', function () {
                     "city": "Paris",
                     "country": "FR"
                 },
+                "purchases": [
+                    {
+                        "transactionDate": "02/11/2015",
+                        "amount": 4000,
+                        "productID": "TORXX"
+                    }
+                ],
                 "complementaryNote": "Nothing much"
             }, function (pResult) {
                 assert.equal(
