@@ -1,6 +1,9 @@
 var assert = require('assert'),
-    ClientDAO = require('../lib/ClientDAO')
-config = require('../config.json')
+    ClientDAO = require('../lib/ClientDAO'),
+    config = require('../config.json'),
+    PurchaseDAO = require('../lib/PurchaseDAO')
+
+PurchaseDAO.initPurchaseSequence()
 
 describe('ClientDAO', function () {
     describe('#addClient()', function () {
