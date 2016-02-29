@@ -43,6 +43,12 @@ app.get('/get-clients', function(req, res) {
 	})
 })
 
+app.get('/get-top-n-clients', function(req, res) {
+	ClientDAO.getTopNClients(req.query, function(pResult) {
+		res.json(pResult)
+	})
+})
+
 app.get('/get-purchases', function(req, res) {
 	PurchaseDAO.getPurchases(req.query, function(pResult) {
 		res.json(pResult)
